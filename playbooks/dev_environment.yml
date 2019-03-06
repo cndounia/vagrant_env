@@ -1,0 +1,11 @@
+- name: MyPlaybook
+  hosts: localhost
+
+  tasks:
+    - name: Start Erlang MQTT container
+      docker_container:
+        name: emqtt_container
+        image: omnys/alpine-emqtt
+        state: started
+        ports:
+          - "18083:18083"

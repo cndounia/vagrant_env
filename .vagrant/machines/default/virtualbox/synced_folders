@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant_data":{"guestpath":"/vagrant_data","hostpath":"/home/christian/VagrantEnv/reachout_course","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/christian/VagrantEnv/reachout_course/vagrant_env","disabled":false,"__vagrantfile":true}}}
