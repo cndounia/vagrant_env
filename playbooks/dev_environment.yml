@@ -9,3 +9,10 @@
         state: started
         ports:
           - "18083:18083"
+    - name: Start Bitnami MongoDB container
+      docker_container:
+        name: mongodb_container
+        image: bitnami/mongodb
+        state: started
+        ports:
+          - "27017:27017"
